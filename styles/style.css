@@ -1,0 +1,15 @@
+@import url(./font.css);
+@import url(./footer.css);
+@import url(./heder.css);
+@import url(./reset.css);
+@import url(./newsletter_signup.css);
+@import url(./our_capabilities.css);
+@import url(./our_story.css);
+@import url(./want_to_build_something_amazing.css);
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
