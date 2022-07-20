@@ -5,16 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konstrukt</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
   </head>
   <body>
-    <img src="./img/heder/1photo.jpg" alt="title_foto">
-    <header>
-      <nav></nav>
+    <header class="header">
+      <div class="container">
+        <img class="cap__logo" src="./img/heder/projeco-logo.png" alt="logo" />
+        <h1 class="cap__title">PARTNER WITH KONSTUCT</h1>
+        <p class="cap__text">An award-winning construction management firm</p>
+        <p class="cap__skroll">SCROLL DOWN</p>
+      </div>
     </header>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__menu">
+          <img
+            class="menu_logo"
+            src="./img/heder/projeco-logo-black.svg"
+            alt="logo"
+            width="79"
+            height="18"
+          />
+          <ul class="menu">
+            <li><a class="a__menu" href="#">HOME</a></li>
+            <li><a class="a__menu" href="#">ABOUT</a></li>
+            <li><a class="a__menu" href="#">SERVICES</a></li>
+            <li><a class="a__menu" href="#">WORK</a></li>
+            <li><a class="a__menu" href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
-      <section id="our__story"></section>
+      <section id="our__story">
+        <h2 class="story__title">OUR STORY</h2>
+        <div class="container">
+          <div class="story__wraper">
+          <div class="story__text">
+            <p class="story__text__1">
+              Founded in 2011 by John Mathew Smith, <span class="span__color">Konstruct</span> has become the
+              number one construction management
+            </p>
+            <p class="story__text__2">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+              sed diam nonummy nibh euismod tincidunt ut <br> laoreet dolore magna
+              aliquam erat.
+            </p>
+          </div>
+          <div class="story">
+            <img src="./img/our story/Bitmap.png" alt="" />
+            <img src="./img/our story/Bitmap2.png" alt="" />
+            <img src="./img/our story/Bitmap3.png" alt="" />
+          </div>
+        </div>
+      </section>
       <section id="our__capabalities"></section>
       <section id="want__to__build__something__amazing?"></section>
       <section id="newsletter__signup"></section>

@@ -1,0 +1,90 @@
+.header {
+  padding: 42px 0 71px;
+  background-image: url(../img/heder/1photo.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cap__logo {
+  margin: 0 auto;
+}
+
+.cap__title {
+  text-align: center;
+  margin-top: 306px;
+  margin-bottom: 21px;
+  font-family: "BebasNeue", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+.cap__text {
+  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cap__skroll {
+  margin-top: 221px;
+  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nav {
+  padding: 25px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 47px;
+}
+
+.a__menu:hover {
+  color: #00a4e5;
+  transition: 0.2s;
+}
+
+.a__menu {
+  color: black;
+  text-decoration: none;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 450px;
+}
+
+.menu li {
+  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.span__color {
+  color: #00a4e5;
+}

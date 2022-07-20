@@ -6,10 +6,21 @@
 @import url(./our_capabilities.css);
 @import url(./our_story.css);
 @import url(./want_to_build_something_amazing.css);
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  box-sizing: content-box;
 }
