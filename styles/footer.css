@@ -1,0 +1,14 @@
+.footer {
+  padding: 23px 0;
+  background-color: #171819;
+}
+
+footer > p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.84px;
+  color: #fff;
+  text-align: center;
+}

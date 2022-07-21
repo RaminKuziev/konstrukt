@@ -74,7 +74,7 @@
 .nav__menu {
   display: flex;
   justify-content: center;
-  column-gap: 450px;
+  column-gap: 415px;
 }
 
 .menu li {

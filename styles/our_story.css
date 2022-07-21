@@ -38,7 +38,6 @@
   max-width: 405px;
 }
 .story__text > .story__text__1 {
-  /* width: 393px; */
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -49,7 +48,6 @@
 }
 
 .story__text > .story__text__2 {
-  /* width: 382px; */
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 400;

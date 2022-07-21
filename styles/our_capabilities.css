@@ -3,12 +3,15 @@
 }
 
 .capabalities__title {
-  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 78px;
+  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
 }
 
 .capabalities__title h2 {
+  position: relative;
   max-width: 201px;
   font-size: 18px;
   font-weight: 700;
@@ -16,6 +19,16 @@
   letter-spacing: 2px;
   text-align: left;
   color: #48555b;
+}
+.capabalities__h2::after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 24px;
+  transform: translate(-50%);
+  background-color: #00a4e5;
+  width: 50px;
+  height: 2px;
 }
 
 .capabalities__title p {
@@ -26,7 +39,7 @@
   letter-spacing: 0.2px;
   text-align: left;
   color: #48555b;
-  margin: 0 31px 78px 155px;
+  margin: 0 31px 0 155px;
 }
 
 .capabalities__title button {
@@ -41,6 +54,11 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+}
+
+.capabalities__title button:hover {
+  transition: 0.4s;
 }
 
 .capabalities__carts {
@@ -55,8 +73,7 @@
   height: 330px;
   box-sizing: border-box;
   border: 1px solid #e6e6e6;
-  padding-top: 38px;
-  padding-left: 23px;
+  padding: 38px 22px;
 }
 
 .capabilities__title,
@@ -84,5 +101,5 @@
   line-height: 23px;
   letter-spacing: 0.18px;
   text-align: left;
-  padding-bottom: 39px;
+  color: #48555b;
 }

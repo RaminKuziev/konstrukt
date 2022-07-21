@@ -1,0 +1,48 @@
+#newsletter__signup {
+  padding: 30px 0;
+  background-color: #171819;
+}
+
+.signup__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup__p {
+  margin-right: 70px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #fff;
+}
+
+input[type="email"] {
+  margin: 0;
+  padding: 9px 98px 10px 16px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+  text-align: left;
+  color: #48555b;
+  outline: none;
+}
+
+.signup__element button {
+  display: block;
+  padding: 11px 49px;
+  background-color: #00a4e5;
+  border: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
