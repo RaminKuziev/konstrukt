@@ -1,0 +1,88 @@
+#our__capabalities {
+  padding: 129px 0 115px;
+}
+
+.capabalities__title {
+  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.capabalities__title h2 {
+  max-width: 201px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #48555b;
+}
+
+.capabalities__title p {
+  max-width: 387px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #48555b;
+  margin: 0 31px 78px 155px;
+}
+
+.capabalities__title button {
+  font-family: "Open+Sans", Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 40px;
+  background-color: #00a4e5;
+  border: 0px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.capabalities__carts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.capabalities__cart,
+.capabalities__cart__2,
+.capabalities__cart__3 {
+  width: 295px;
+  height: 330px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  padding-top: 38px;
+  padding-left: 23px;
+}
+
+.capabilities__title,
+.capabilities__title__2,
+.capabilities__title__3 {
+  margin-top: 25px;
+  margin-bottom: 13px;
+  max-width: 250px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-align: left;
+  color: #48555b;
+}
+
+.capabilities__p__3,
+.capabilities__p__2,
+.capabilities__p {
+  max-width: 250px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.18px;
+  text-align: left;
+  padding-bottom: 39px;
+}
